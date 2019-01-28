@@ -13,7 +13,7 @@ class task01_005 {
             int h2 = Integer.parseInt(reader.readLine());
             int m2 = Integer.parseInt(reader.readLine());
             int s2 = Integer.parseInt(reader.readLine());
-            System.out.println(task01_005.getSeconds(h2,m2,s2)-task0105.getSeconds(h1,m1,s1));
+            System.out.println(task01_005.getSeconds(h2,m2,s2)-task01_005.getSeconds(h1,m1,s1));
         } catch (IOException | NumberFormatException | ArithmeticException e) {
             // never reached by conditions
             System.out.println("Error happened!");
