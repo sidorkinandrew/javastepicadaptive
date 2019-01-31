@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class task01_022_2 {
+class task01_028 {
     public static void main(String[] args)  throws IOException {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))){
             String a = reader.readLine().trim();
