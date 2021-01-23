@@ -35,7 +35,8 @@ class Main {
         set = Arrays.stream(strings).map(Integer::parseInt).collect(Collectors.toSet());
         set.addAll(helpList);
         set = removeAllNumbersMoreThan10(set);
-        set.stream().forEach(System.out::println);
+        set.forEach(System.out::println);
+        //System.out.println(Collections.max(set));
     }
     public static Set<Integer> removeAllNumbersMoreThan10(Set<Integer> set){
         return set.stream().filter(x -> x<=10).collect(Collectors.toSet());
