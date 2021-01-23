@@ -25,3 +25,5 @@ class Main {
         return list.stream().map(element -> maxLengthItem).collect(Collectors.toList());
     }
 }
+
+
